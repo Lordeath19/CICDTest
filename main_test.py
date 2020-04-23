@@ -5,7 +5,7 @@ def test_mult():
     assert mult(1, 3) == 3
     assert mult(5, 12) == 60
     assert mult(3, -4) == -12
-    assert mult(0, -1) == -1
+    assert mult(0, -1) == 0
 
 
 def test_add():
